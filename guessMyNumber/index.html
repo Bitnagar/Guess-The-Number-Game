@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Guess The Number is a simple game made for you to play in your free time. Made with JavaScript, it is a pure time killer. Share it with your friends. Enjoy!!"
+    />
+    <meta name="keywords" content="game, online game, free online game, javaScript Game, guess number game, free Games, simple games">
+    <link rel="icon" href="icons/favicon-32x32 (1).png" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
+    
+    <title>Guess The Number!</title>
+  </head>
+  <body>
+    <div class="container">
+        <header>
+          <h1 class="heading">Guess The Number!
+            <span class="sub-heading">(Between 1 and 20)</span>
+          </h1>
+          <p class="between">(Between 1 and 20)</p>
+          <button class="btn again">Again!</button>
+        </header>
+      <main>
+        <section class="left">
+          <p class="output">Start guessing...</p>
+          <input type="number", class="number-input", placeholder="Type"></input>
+          <button class="check-btn check">Check!</button>
+          <button class="btn2 again2">Again!</button>
+        </section>
+        <div class="number">?</div>
+        <section class="right">
+          <p class="score">💯 Score: <span class ="score-span"> 20</span></p>
+          <p class="highScore">🥇 Highscore: <span class ="highScore-span"> 0 </span></p>
+        </section>
+        <footer>
+          <!-- Made with 💓 by  <a href="https://github.com/Bitnagar/Bitnagar">Shivam Bhatnagar</a> -->
+          Made with <span style="color: #e25555;"> &#9829; </span> by <a href="https://github.com/Bitnagar/Bitnagar">Shivam Bhatnagar</a>
+        </footer>
+      </main>
+      <div class="overlay hidden">
+        <span class="overlay-span">
+          Please Enter a number <br> between 1 and 20.😅
+        </span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

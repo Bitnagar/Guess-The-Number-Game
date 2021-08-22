@@ -1,0 +1,260 @@
+@media (min-width: 376px) and (orientation: landscape) {
+
+    header {
+        margin-top: 20rem;
+    }
+}
+
+@media (min-height: 36.85em) {
+
+    footer {
+        margin-top: 4rem;
+    }
+}
+
+/* at 625 pixels */
+
+@media (min-width: 45em) {
+    .heading {
+        font-size: 6rem;
+    }
+
+    .sub-heading {
+        font-size: 3rem;
+    }
+
+    .number {
+        font-size: 10rem;
+        width: 25rem;
+        height: 16rem;
+        text-align: center;
+        align-self: center;
+        transform: translateY(-8rem);
+    }
+
+    .number-input {
+        width: 35rem;
+    }
+
+    .right {
+        margin-top: 4rem;
+    }
+      
+    .highScore {
+        margin-top: 2rem;
+    }
+
+    footer {
+        margin-top: 10rem;
+    }
+}
+
+@media (min-width: 50.81em) {
+    html {
+        font-size: 37.55%;
+    }
+
+    header {
+        gap: 0rem;
+        margin-top: 0;
+        flex-direction: row-reverse;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        gap: 0;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .heading {
+        align-self: center;
+        font-size: 4rem;
+        margin-top: 14rem;
+        order: 2;
+    }
+
+    .heading span {
+        display: none;
+    }
+
+    .between {
+        display: block;
+        align-self: flex-start;
+        order: 1;
+        font-size: 2rem;
+        margin: 0;
+        margin-top: 4rem;
+    }
+
+    .again {
+        display: block;
+        align-self: flex-start;
+        order: 3;
+    }
+
+    .number {
+        position: absolute;
+        grid-column: 2 / 2;
+        top: 35%;
+        left: 43%;
+    }
+
+    .left {
+        /* margin-left: 15rem; */
+        width:40rem;
+        height: 40rem;
+        grid-column: 2 / 1;
+        align-self: center;
+    }
+
+    .output {
+        text-align: center;
+        line-height: 8rem;
+    }
+
+    .right {
+        width:40rem;
+        height: 40rem;
+        margin-right: 10rem;
+        justify-self: center;
+        grid-column: 4 / 3;
+        justify-content: center;
+    }
+
+    .again2 {
+        display: none;
+    }
+
+    footer {
+        grid-column: -3 / -3;
+    }
+}
+
+@media (min-width: 62em) {
+    html {
+        font-size: 47.25%;
+    }
+
+    header {
+        gap: 8rem;
+    }
+
+    .heading {
+        transform: translateX(4rem);
+    }
+
+    .left {
+        margin-top: 8rem;
+        margin-left: 9rem;
+    }
+
+    .again {
+        flex-flow: row;
+    }
+
+    .number-input {
+        margin-top: 2rem;
+    }
+
+    .check-btn {
+        margin: 1rem 4rem;
+    }
+
+    .output {
+        line-height: 3rem;
+        font-size: 2rem;
+        align-self: center;
+    }
+
+    footer {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+
+@media (min-width: 84em) {
+    html {
+        font-size: 56.25%;
+    }
+
+    header {
+        gap: 8rem;
+    }
+
+    .heading {
+        transform: translateX(4rem);
+    }
+
+    .left {
+        margin-top: 8rem;
+        margin-left: 9rem;
+    }
+
+    .again {
+        flex-flow: row;
+    }
+
+    .number-input {
+        margin-top: 2rem;
+    }
+
+    .check-btn {
+        margin: 1rem 4rem;
+    }
+
+    .output {
+        line-height: 3rem;
+        font-size: 2rem;
+        align-self: center;
+    }
+
+    footer {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 120em) {
+    html {
+        font-size: 62.50%;
+    }
+
+    header {
+        gap: 30rem;
+    }
+
+    .between {
+        margin-right: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .left {
+        margin-top: 8rem;
+        margin-left: 9rem;
+    }
+
+    .again {
+        flex-flow: row;
+        width: 16rem;
+        height: 5rem;
+    }
+
+    .number-input {
+        margin-top: 2rem;
+    }
+
+    .check-btn {
+        margin: 1rem 4rem;
+    }
+
+    .output {
+        line-height: 3rem;
+        font-size: 2rem;
+        align-self: center;
+    }
+}
