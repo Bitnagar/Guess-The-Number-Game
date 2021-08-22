@@ -5,18 +5,16 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-game">About The Project</a>
+      <a href="#about-the-game">About The Project 🧾</a>
+    <li><a href="#live-demo">Live Demo ▶</a></li>
     </li>
-    <li><a href="#built-with">Built With</a></li>
+    <li><a href="#built-with">Built With 🛠</a></li>
     <li>
-      <a href="#how-to-play">How To Play?</a>
-      <ul>
-        <li><a href="#usage">Usage</a></li>
-      </ul>
-    </li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+      <a href="#how-to-play">How To Play? ❔</a>
+    <li><a href="#usage">Usage ⛽</a></li>
+    <li><a href="#contributing">Contributing 🤵🏻</a></li>
+    <li><a href="#license">License 🏫</a></li>
+    <li><a href="#contact">Contact 📧</a></li>
   </ol>
 </details>
 
@@ -69,4 +67,4 @@ Live Demo: https://guessthenumbr.netlify.app/
 
 
 
-### THANK YOU!! ❤🥰
+## Thanks for considering it. I hope you liked it. More to come! ❤
