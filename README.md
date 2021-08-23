@@ -1,5 +1,5 @@
 # 🎇 Guess-The-Number-Game 🔥
-## Guess a random number between a range. Take minimum chances to score the maximum!
+### Guess a random number between a range. Take minimum chances to score the maximum!
 
 <details open="open">
   <summary>Table of Contents</summary>
@@ -47,10 +47,10 @@ This game is Built using the following languages. (No Frameworks)
 
 ### USAGE 
 
-Take all the code files and run them using live server in your system locally. Make changes in the code and test it locally and if you would like to add it to the game, then make a pull request.
+Take the code files and run them using live server in your system locally. Make changes in the code and test it locally. If you would like to add it to the game, then make a pull request.
 
 ## Contributing
-Take the code, run it and think about what can be editied and make your pull request to update the game.
+Take the code, run it and think about what can be edited and make your pull request to update the game.
 
 ## License
 
