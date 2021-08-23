@@ -43,7 +43,6 @@ body {
   justify-content: center;
   align-content: center;
   justify-self: center;
-  /* background-color: peru; */
   border-radius: 4rem;
   font-size: 3.5rem;
   line-height: 6rem;
@@ -60,8 +59,6 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  /* background-color: rgb(100, 100, 100); */
   position: relative;
   height: 35vh;
   border-bottom: 1rem solid #eee;
@@ -92,7 +89,6 @@ button:hover {
 }
 
 .heading {
-  /* background-color: rgb(0, 102, 102); */
   text-align: center;
   align-self: flex-end;
   margin-bottom: 18rem;
