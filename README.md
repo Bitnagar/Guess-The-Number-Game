@@ -47,7 +47,10 @@ This game is Built using the following languages. (No Frameworks)
 
 ### USAGE 
 
-Take the code files and run them using live server in your system locally. Make changes in the code and test it locally. If you would like to add it to the game, then make a pull request.
+* You can use this project to learn basic web development and JavaScript.
+* Run it locally on your system. Think about what can be changed. Make changes in the game locally.
+* If you like what you have changed, then you can make a pull request to update the code here.
+
 
 ## Contributing
 Take the code, run it and think about what can be edited and make your pull request to update the game.
