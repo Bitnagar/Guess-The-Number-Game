@@ -1,20 +1,21 @@
-@media (min-width: 376px) and (orientation: landscape) {
-
+@media (min-width: 376px) and (orientation: landscape)
+{
     header {
         margin-top: 20rem;
     }
 }
 
-@media (min-height: 36.85em) {
-
+/* at 573px */
+@media (min-height: 36.85em)
+{
     footer {
         margin-top: 4rem;
     }
 }
 
-/* at 625 pixels */
-
-@media (min-width: 45em) {
+/* at 720px */
+@media (min-width: 45em)
+{
     .heading {
         font-size: 6rem;
     }
@@ -49,7 +50,9 @@
     }
 }
 
-@media (min-width: 50.81em) {
+/* at 813px */
+@media (min-width: 50.81em)
+{
     html {
         font-size: 37.55%;
     }
@@ -104,7 +107,6 @@
     }
 
     .left {
-        /* margin-left: 15rem; */
         width:40rem;
         height: 40rem;
         grid-column: 2 / 1;
@@ -134,6 +136,7 @@
     }
 }
 
+/* at 992px */
 @media (min-width: 62em) {
     html {
         font-size: 47.25%;
@@ -176,7 +179,7 @@
     }
 }
 
-
+/* at 1344px */
 @media (min-width: 84em) {
     html {
         font-size: 56.25%;
@@ -219,6 +222,7 @@
     }
 }
 
+/* at 1920px */
 @media (min-width: 120em) {
     html {
         font-size: 62.50%;
