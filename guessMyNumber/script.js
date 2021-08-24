@@ -2,7 +2,7 @@
 
 //This generates a random number
 let secretNumber = Math.trunc(Math.random() * 20) + 1;
-let score = 20;
+let score = 10;
 let highscore = 0;
 
 //for displaying messages ("too low", "Too high", etc)
@@ -65,7 +65,7 @@ document.querySelector('.check').addEventListener('click', function () {
 });
 
 document.querySelector('.btn2').addEventListener('click', function () {
-  score = 20;
+  score = 10;
   secretNumber = Math.trunc(Math.random() * 20) + 1;
   displayMessage('Start guessing...');
   document.querySelector('.score-span').textContent = score;
@@ -76,7 +76,7 @@ document.querySelector('.btn2').addEventListener('click', function () {
 });
 
 document.querySelector('.btn').addEventListener('click', function () {
-  score = 20;
+  score = 10;
   secretNumber = Math.trunc(Math.random() * 20) + 1;
   displayMessage('Start guessing...');
   document.querySelector('.score-span').textContent = score;
